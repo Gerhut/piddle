@@ -8,13 +8,13 @@ module.exports = function (middleware) {
     return function (request, response, next) {
       new Promise(function (resolve) {
         resolve(middleware(request, response))
-      }).catch(next)
+      }).then(function () { next() }, next)
     }
   } else {
     return function (error, request, response, next) {
       new Promise(function (resolve) {
         resolve(middleware(error, request, response))
-      }).catch(next)
+      }).then(function () { next() }, next)
     }
   }
 }
