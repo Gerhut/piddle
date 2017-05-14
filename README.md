@@ -1,5 +1,6 @@
 # Piddle
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Gerhut/piddle.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/Gerhut/piddle.svg?branch=master)](https://travis-ci.org/Gerhut/piddle)
 [![Coverage Status](https://coveralls.io/repos/github/Gerhut/piddle/badge.svg?branch=master)](https://coveralls.io/github/Gerhut/piddle?branch=master)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)

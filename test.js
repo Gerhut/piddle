@@ -60,7 +60,7 @@ it('should call next when middleware returns rejection', function (done) {
 })
 
 it('should call next without arguments when middleware generally returns', function (done) {
-  function middleware () { return }
+  function middleware () { }
   var piddled = piddle(middleware)
   piddled(null, null, function (err) {
     should(err).be.undefined()
