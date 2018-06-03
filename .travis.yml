@@ -1,7 +1,8 @@
 language: node_js
 
 node_js:
-  - lts/argon
+  - node
+  - lts/carbon
   - lts/boron
 
 after_success:
