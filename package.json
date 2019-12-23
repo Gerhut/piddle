@@ -24,7 +24,7 @@
   "devDependencies": {
     "bluebird": "^3.4.6",
     "mocha": "^6.0.0",
-    "nyc": "^14.0.0",
+    "nyc": "^15.0.0",
     "should": "^13.0.0",
     "standard": "^14.0.0"
   },
